@@ -73,7 +73,7 @@ const Header = () => {
           </button>
 
           <a
-            className="hidden md:flex bg-indigo-600 text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-indigo-700 transition"
+            className="hidden md:flex bg-[#AB499A] text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-[#d031b6] transition"
             href="#"
           >
             Sign up

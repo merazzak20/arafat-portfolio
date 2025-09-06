@@ -8,17 +8,21 @@ const Header = () => {
 
   return (
     <div>
-      <header className="z-10 flex items-center justify-between px-6 py-3 md:py-4 shadow shadow-[rgba(171,73,154,0.3)] max-w-5xl rounded-full mx-auto w-full  relative">
+      <header className="z-10 flex items-center justify-between px-8 py-4 md:py-4 bg-white/5 border border-[rgba(171,73,154,0.2)] shadow max-w-5xl rounded-full mx-auto w-full  relative">
         {/* Logo */}
         <a href="/">
           <img className="w-[150px]" src={logo} alt="Arafat Khan" />
         </a>
 
         {/* Nav Menu */}
+
+        {/* {`max-md:absolute max-md:top-0 max-md:left-0 max-md:overflow-hidden items-center justify-center max-md:h-full transition-[width]  backdrop-blur flex-col md:flex-row flex gap-8 text-white text-sm font-normal ${
+            isOpen ? "flex" : "hidden"
+          }`} */}
         <nav
           id="menu"
-          className={`max-md:absolute max-md:top-0 max-md:left-0 max-md:overflow-hidden items-center justify-center max-md:h-full transition-[width]  backdrop-blur flex-col md:flex-row flex gap-8 text-white text-sm font-normal ${
-            isOpen ? "max-md:w-full" : "max-md:w-0"
+          className={`max-md:fixed max-md:inset-0 max-md:bg-gradient-to-b from-[#23011c] to-[#200113] max-md:bg-black/90 max-md:flex-col max-md:justify-center max-md:items-center transition-all duration-300 md:flex md:static md:bg-transparent md:h-auto md:w-auto flex gap-8 text-white text-sm font-normal ${
+            isOpen ? "flex" : "hidden"
           }`}
         >
           <a className="hover:text-indigo-600" href="#">
@@ -56,7 +60,7 @@ const Header = () => {
         {/* Right Side Buttons */}
         <div className="flex items-center space-x-4">
           <a
-            className="hidden md:flex md:items-center gap-2 bg-[#AB499A] text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-[#d031b6] transition "
+            className="hidden md:flex md:items-center gap-2 border-2 border-[#AB499A] text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-[#d031b6] transition "
             href="#"
           >
             Download CV <FaDownload />

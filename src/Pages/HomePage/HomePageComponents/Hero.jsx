@@ -4,7 +4,7 @@ import me from "../../../assets/me.png";
 
 const Hero = () => {
   return (
-    <section className="relative max-md:px-2 text-white text-sm pt-8 bg-top bg-no-repeat">
+    <section className="relative max-md:px-2 text-white text-sm bg-top bg-no-repeat">
       <Container>
         <div className="flex flex-col lg:flex-row justify-between items-center md:pl-[7%]">
           {/* left */}

@@ -1,0 +1,44 @@
+[
+  {
+    "image": "https://bestier.net/cdn/shop/files/computer-desk-with-drawers-k.png?v=1724315665&width=718",
+    "title": "Peddy - Pet Adoption Platform",
+    "tags": ["React", "Tailwind", "API"],
+    "github": "https://github.com/username/peddy",
+    "live": "https://peddy.vercel.app/"
+  },
+  {
+    "image": "https://bestier.net/cdn/shop/files/computer-desk-with-drawers-k.png?v=1724315665&width=718",
+    "title": "Gadget Heaven - E-commerce",
+    "tags": ["React", "Routing", "Tailwind"],
+    "github": "https://github.com/username/gadget-heaven",
+    "live": "https://gadget-heaven.vercel.app/"
+  },
+  {
+    "image": "https://bestier.net/cdn/shop/files/computer-desk-with-drawers-k.png?v=1724315665&width=718",
+    "title": "MindSprint - Quiz App",
+    "tags": ["React", "Tailwind", "Hooks"],
+    "github": "https://github.com/username/mindsprint",
+    "live": "https://mind-sprint.vercel.app/"
+  },
+  {
+    "image": "https://bestier.net/cdn/shop/files/computer-desk-with-drawers-k.png?v=1724315665&width=718",
+    "title": "Result Card Generator",
+    "tags": ["React", "Tailwind", "PDF"],
+    "github": "https://github.com/username/result-card-generator",
+    "live": "https://result-card.vercel.app/"
+  },
+  {
+    "image": "https://bestier.net/cdn/shop/files/computer-desk-with-drawers-k.png?v=1724315665&width=718",
+    "title": "Tutioni - Tutor Platform",
+    "tags": ["React", "Tailwind", "Firebase"],
+    "github": "https://github.com/username/tutioni",
+    "live": "https://tutioni.vercel.app/"
+  },
+  {
+    "image": "https://bestier.net/cdn/shop/files/computer-desk-with-drawers-k.png?v=1724315665&width=718",
+    "title": "ArtifactArc - Artifact Tracker",
+    "tags": ["React", "MongoDB", "Express"],
+    "github": "https://github.com/username/artifact-arc",
+    "live": "https://artifactarc.vercel.app/"
+  }
+]

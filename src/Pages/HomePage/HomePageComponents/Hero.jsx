@@ -4,9 +4,10 @@ import me from "../../../assets/me.png";
 
 const Hero = () => {
   return (
-    <section className="relative max-md:px-2 text-white text-sm pb-28 pt-8 bg-top bg-no-repeat">
+    <section className="relative max-md:px-2 text-white text-sm pt-8 bg-top bg-no-repeat">
       <Container>
         <div className="flex flex-col lg:flex-row justify-between items-center md:pl-[7%]">
+          {/* left */}
           <div className="left w-full">
             {/* Heading */}
             <h1 className="text-4xl md:text-6xl text-center font-semibold max-w-4xl mt-5 bg-gradient-to-r from-white to-[#748298] text-transparent bg-clip-text">
@@ -21,7 +22,7 @@ const Hero = () => {
             {/* CTA Buttons */}
             <div className="flex items-center justify-center gap-2 mt-8 text-sm">
               <button className="px-6 py-2.5 bg-[#AB499A] hover:bg-[#d031b6] transition rounded-full">
-                Get Started
+                Contact Me !
               </button>
               <button className="flex items-center gap-2 bg-white/10 border border-white/15 rounded-full px-6 py-2.5">
                 <span>Learn More</span>
@@ -43,29 +44,20 @@ const Hero = () => {
                 </svg>
               </button>
             </div>
+          </div>
 
-            {/* Logos Section */}
-            <div className="flex flex-wrap items-center justify-center gap-14 mt-14 max-md:px-2">
-              {/* Example logo */}
+          {/* right */}
+          <div className="right w-full flex justify-center items-center">
+            <div className="relative w-full">
+              {/* Overlay */}
+              <div className="absolute inset-0 bg-[#0E010C]/50 rounded-xl z-10"></div>
+              {/* Image */}
               <img
-                src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/dummyLogo/prebuiltuiDummyLogo.svg"
-                alt="logo"
-                className="h-8 opacity-80"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
-                alt="react"
-                className="h-8 opacity-80"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
-                alt="tailwind"
-                className="h-8 opacity-80"
+                className="w-full mx-auto rounded-xl relative z-0 hidden lg:block"
+                src={me}
+                alt="Arafat Khan"
               />
             </div>
-          </div>
-          <div className="right w-full">
-            <img className="w-[100%] mx-auto" src={me} alt="Arafat Khan" />
           </div>
         </div>
       </Container>

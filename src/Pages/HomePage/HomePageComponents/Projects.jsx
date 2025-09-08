@@ -16,10 +16,10 @@ const Projects = () => {
       <Container>
         {/* Section Title */}
         <div className="mb-10">
-          <SectionTitle Text={"Some of My Projects"} />
-          <p className="text-gray-400 mt-2 text-lg">
-            Projects That Define My Skills
-          </p>
+          <SectionTitle
+            text={"Some of My Projects"}
+            subTitle={"Projects That Define My Skills"}
+          />
         </div>
 
         {/* Project Grid */}

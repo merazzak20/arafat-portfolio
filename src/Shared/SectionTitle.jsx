@@ -1,11 +1,15 @@
 import React from "react";
 
-const SectionTitle = ({ Text }) => {
+const SectionTitle = ({ text, subTitle }) => {
   return (
-    <div>
-      <h1 className="text-4xl md:text-5xl font-semibold max-w-4xl mt-5 bg-gradient-to-r from-white to-[#745272] text-transparent bg-clip-text inline-block after:content-[''] after:block after:h-[3px] after:w-20 after:bg-[#AB499A] after:mt-1 ">
-        {Text}
-      </h1>
+    <div className="flex items-center">
+      <div className="h-14 w-2 bg-[#AB499A] mr-4"></div>
+      <div>
+        <h1 className="text-4xl md:text-5xl font-semibold max-w-4xl mt-5 bg-gradient-to-r from-white to-[#745272] text-transparent bg-clip-text">
+          {text}
+        </h1>
+        <p className="text-gray-400 mt-2 text-lg">{subTitle}</p>
+      </div>
     </div>
   );
 };

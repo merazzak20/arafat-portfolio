@@ -16,8 +16,10 @@ const About = () => {
           {/* right */}
           <div className="right w-full">
             <div className="title mb-10">
-              <SectionTitle Text={"About Me"}></SectionTitle>
-              <p className="text-gray-200">A Glimpse Into My Journey.</p>
+              <SectionTitle
+                text={"About Me"}
+                subTitle={"A Glimpse Into My Journey."}
+              ></SectionTitle>
             </div>
             <div className="info bg-zinc-800 p-5 rounded-md border border-[#ab499b74]">
               <p className="text-justify">

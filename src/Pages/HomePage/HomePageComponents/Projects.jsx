@@ -40,7 +40,7 @@ const Projects = () => {
 
               {/* Card Body */}
               <div className="card-body">
-                <h2 className="card-title text-lg font-semibold">
+                <h2 className="card-title text-xl font-semibold">
                   {item.title}
                 </h2>
 

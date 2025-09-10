@@ -6,13 +6,13 @@ const Projects = () => {
   const [project, setProject] = useState([]);
 
   useEffect(() => {
-    fetch("Project.json")
+    fetch("/Project.json")
       .then((res) => res.json())
       .then((data) => setProject(data));
   }, []);
 
   return (
-    <div className="my-10">
+    <div className="my-20">
       <Container>
         {/* Section Title */}
         <div className="mb-10">

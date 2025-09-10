@@ -10,7 +10,7 @@ import Container from "../../../Shared/Container";
 
 const Experience = () => {
   return (
-    <div className="my-10">
+    <div className="my-20">
       <Container>
         {/* Section Title */}
         <div className="mb-10">

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "HTML5",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    "reason": "Web structure"
+  },
+  {
+    "name": "CSS3",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    "reason": "Styling design"
+  },
+  {
+    "name": "JavaScript",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    "reason": "Dynamic logic"
+  },
+  {
+    "name": "React",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    "reason": "UI library"
+  },
+  {
+    "name": "Tailwind CSS",
+    "logo": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ATailwind_CSS_Logo.svg&psig=AOvVaw2rfuFBwDpAXa4dExcV3YLJ&ust=1757571302118000&source=images&cd=vfe&opi=89978449&ved=0CBgQjhxqFwoTCLCOsrnFzY8DFQAAAAAdAAAAABAE",
+    "reason": "Utility-first"
+  },
+  {
+    "name": "Node.js",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    "reason": "Backend runtime"
+  },
+  {
+    "name": "Express.js",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+    "reason": "Server framework"
+  },
+  {
+    "name": "MongoDB",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    "reason": "NoSQL database"
+  },
+  {
+    "name": "Git & GitHub",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+    "reason": "Version control"
+  },
+  {
+    "name": "Firebase",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+    "reason": "Hosting auth"
+  }
+]

@@ -25,17 +25,23 @@ const Header = () => {
             isOpen ? "flex" : "hidden"
           }`}
         >
-          <a className="hover:text-indigo-600" href="#">
-            Products
+          <a className="hover:text-[#d53bbc] font-semibold" href="#about">
+            About
           </a>
-          <a className="hover:text-indigo-600" href="#">
-            Customer Stories
+          <a className="hover:text-[#d53bbc] font-semibold" href="#skills">
+            Skills
           </a>
-          <a className="hover:text-indigo-600" href="#">
-            Pricing
+          <a className="hover:text-[#d53bbc] font-semibold" href="#projects">
+            Projects
           </a>
-          <a className="hover:text-indigo-600" href="#">
-            Docs
+          <a className="hover:text-[#d53bbc] font-semibold" href="#experience">
+            Experience
+          </a>
+          <a
+            className="hover:text-[#d53bbc] font-semibold"
+            href="#certificates"
+          >
+            Certificates
           </a>
 
           {/* Close Button (mobile) */}

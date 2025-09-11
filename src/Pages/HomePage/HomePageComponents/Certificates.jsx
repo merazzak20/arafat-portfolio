@@ -10,7 +10,7 @@ const Certificates = () => {
       .then((data) => setCertificates(data));
   }, []);
   return (
-    <div className="my-20">
+    <div className="my-20" id="certificates">
       <Container>
         {/* Section Title */}
         <div className="mb-10">
@@ -24,7 +24,7 @@ const Certificates = () => {
           {certificates.map((certificate) => (
             <div
               key={certificate?.id}
-              className="relative group flex-grow transition-all w-56 h-[400px] duration-500 hover:w-full rounded-lg"
+              className="relative group flex-grow transition-all w-56 h-[400px] duration-500 hover:w-full hover:cursor-pointer rounded-lg"
             >
               <img
                 className="h-full w-full object-cover object-center"

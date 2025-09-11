@@ -21,10 +21,16 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex items-center justify-center gap-2 mt-8 text-sm">
-              <button className="px-6 py-2.5 bg-[#AB499A] hover:bg-[#d031b6] transition rounded-full">
+              <a
+                href="#contact"
+                className="px-6 py-2.5 bg-[#AB499A] hover:bg-[#d031b6] transition rounded-full"
+              >
                 Contact Me !
-              </button>
-              <button className="flex items-center gap-2 bg-white/10 border border-white/15 rounded-full px-6 py-2.5">
+              </a>
+              <a
+                href="#about"
+                className="flex items-center gap-2 bg-white/10 border border-white/15 rounded-full px-6 py-2.5"
+              >
                 <span>Learn More</span>
                 <svg
                   className="mt-0.5"
@@ -42,7 +48,7 @@ const Hero = () => {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </button>
+              </a>
             </div>
           </div>
 

@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   @apply bg-[#0E010C];
   padding-top: 15px;

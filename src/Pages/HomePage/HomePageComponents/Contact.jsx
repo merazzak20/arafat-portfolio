@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../../../Shared/Container";
 import emailjs from "@emailjs/browser";
 import photo from "../../../assets/c3.jpg";
+// import toast from "react-hot-toast";
 
 const Contact = () => {
   const handleSubmit = (e) => {
@@ -25,6 +26,7 @@ const Contact = () => {
       .then(
         () => {
           console.log("SUCCESS!");
+          //   toast.success("Submission Successfull.❤️");
         },
         (error) => {
           console.log("FAILED...", error.text);
@@ -32,7 +34,7 @@ const Contact = () => {
       );
   };
   return (
-    <div className="my-20">
+    <div className="my-20" id="contact">
       <Container>
         <div className="md:grid md:grid-cols-2 bg-zinc-700/25 mx-4 md:mx-auto rounded-xl relative overflow-hidden">
           {/* Image with overlay wrapper */}

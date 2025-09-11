@@ -5,7 +5,7 @@ import SectionTitle from "../../../Shared/SectionTitle";
 
 const About = () => {
   return (
-    <div className="text-white mb-5">
+    <div className="text-white mb-5" id="about">
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center">
           {/* left */}

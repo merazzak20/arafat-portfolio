@@ -3,7 +3,15 @@ import Container from "../../../Shared/Container";
 import photo from "../../../assets/c3.jpg";
 
 const Contact = () => {
-  const handleSubmit = () => {};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
+
+    const name = form.name.value;
+    const email = form.email.value;
+    const message = form.message.value;
+    console.log(name, email, message);
+  };
   return (
     <div className="my-20">
       <Container>
@@ -41,6 +49,7 @@ const Contact = () => {
                   <input
                     type="text"
                     id="name"
+                    name="name"
                     placeholder="Your name"
                     className="mt-1 w-full rounded-md border border-gray-300 p-3 outline-none focus:border-[#d53bbc] focus:ring-1 focus:ring-[#d53bbc]"
                     required
@@ -58,6 +67,7 @@ const Contact = () => {
                   <input
                     type="email"
                     id="email"
+                    name="email"
                     placeholder="Your email"
                     className="mt-1 w-full rounded-md border border-gray-300 p-3 outline-none focus:border-[#d53bbc] focus:ring-1 focus:ring-[#d53bbc]"
                     required
@@ -74,6 +84,7 @@ const Contact = () => {
                   </label>
                   <textarea
                     id="message"
+                    name="message"
                     rows="4"
                     placeholder="Write your message..."
                     className="mt-1 w-full rounded-md border border-gray-300 p-3 outline-none focus:border-[#d53bbc] focus:ring-1 focus:ring-[#d53bbc]"
@@ -84,7 +95,7 @@ const Contact = () => {
                 {/* Submit Button */}
                 <button
                   type="submit"
-                  className="w-full rounded-md bg-[#ab499a] px-6 py-3 text-white font-medium hover:bg-[#d53bbc] transition"
+                  className="w-full rounded-md bg-[#ab499a] px-6 py-3 text-white font-medium hover:bg-[#d53bbc] transition cursor-pointer"
                 >
                   Send Message
                 </button>

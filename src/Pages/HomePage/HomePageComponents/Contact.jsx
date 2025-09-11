@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "../../../Shared/Container";
+import emailjs from "@emailjs/browser";
 import photo from "../../../assets/c3.jpg";
 
 const Contact = () => {
@@ -11,6 +12,24 @@ const Contact = () => {
     const email = form.email.value;
     const message = form.message.value;
     console.log(name, email, message);
+
+    emailjs
+      .sendForm(
+        import.meta.env.VITE_SERVICE_KEY,
+        import.meta.env.VITE_TEMPLATE_KEY,
+        form,
+        {
+          publicKey: import.meta.env.VITE_PUBLIC_KEY,
+        }
+      )
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
   };
   return (
     <div className="my-20">

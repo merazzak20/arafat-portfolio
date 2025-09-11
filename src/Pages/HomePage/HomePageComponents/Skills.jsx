@@ -12,7 +12,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <div className="my-20">
+    <div className="">
       <Container>
         {/* Section Title */}
         <div className="mb-10">

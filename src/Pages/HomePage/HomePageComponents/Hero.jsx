@@ -8,7 +8,7 @@ const Hero = () => {
       <Container>
         <div className="flex flex-col lg:flex-row justify-between items-center md:pl-[7%]">
           {/* left */}
-          <div className="left w-full">
+          <div className="left mt-6 lg:mt-0 w-full">
             {/* Heading */}
             <h1 className="text-4xl md:text-6xl text-center font-semibold max-w-4xl mt-5 bg-gradient-to-r from-white to-[#748298] text-transparent bg-clip-text">
               This is Arafat Khan

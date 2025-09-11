@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "image": "https://img.freepik.com/free-vector/diploma-template_23-2147985367.jpg",
+    "name": "Web Development Certificate",
+    "description": "Certified in modern web development covering HTML, CSS, JavaScript, and React fundamentals."
+  },
+  {
+    "id": 2,
+    "image": "https://img.freepik.com/free-vector/certificate-template_23-2147845160.jpg",
+    "name": "JavaScript Mastery",
+    "description": "Recognized for advanced JavaScript skills including ES6, DOM, and asynchronous programming."
+  },
+  {
+    "id": 3,
+    "image": "https://img.freepik.com/free-vector/certificate-template_23-2147814135.jpg",
+    "name": "React Developer Certificate",
+    "description": "Completed professional training in React.js focusing on components, hooks, routing, and state management."
+  }
+]

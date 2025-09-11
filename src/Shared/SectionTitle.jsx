@@ -3,7 +3,7 @@ import React from "react";
 const SectionTitle = ({ text, subTitle }) => {
   return (
     <div className="flex items-center">
-      <div className="h-20 w-2 bg-[#AB499A] mr-4"></div>
+      <div className="h-20 w-2 bg-[#AB499A] mr-4 mt-4"></div>
       <div>
         <h1 className="text-4xl md:text-5xl font-semibold max-w-4xl mt-5 bg-gradient-to-r from-white to-[#745272] text-transparent bg-clip-text">
           {text}

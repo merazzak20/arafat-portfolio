@@ -20,11 +20,11 @@ const Certificates = () => {
           />
         </div>
 
-        <div className="flex items-center gap-3 h-[400px] w-full mt-10 mx-auto">
+        <div className="flex flex-col md:flex-row items-center gap-3 md:h-[400px] w-full mt-10 mx-auto">
           {certificates.map((certificate) => (
             <div
               key={certificate?.id}
-              className="relative group flex-grow transition-all w-56 h-[400px] duration-500 hover:w-full hover:cursor-pointer rounded-lg"
+              className="relative group flex-grow transition-all w-full md:w-56 h-[400px] duration-500 hover:w-full hover:cursor-pointer rounded-lg"
             >
               <img
                 className="h-full w-full object-cover object-center"

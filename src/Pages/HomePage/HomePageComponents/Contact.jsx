@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import Container from "../../../Shared/Container";
 import emailjs from "@emailjs/browser";
 import photo from "../../../assets/c3.jpg";
-// import toast from "react-hot-toast";
+import toast from "react-hot-toast";
+import Loader from "../../../Shared/Loader";
 
 const Contact = () => {
+  const [loading, setLoading] = useState(false);
   const handleSubmit = (e) => {
     e.preventDefault();
     const form = e.target;
+    setLoading(true);
 
     const name = form.name.value;
     const email = form.email.value;
@@ -26,7 +29,9 @@ const Contact = () => {
       .then(
         () => {
           console.log("SUCCESS!");
-          //   toast.success("Submission Successfull.❤️");
+          toast.success("Submission Successfull.❤️");
+          setLoading(false);
+          form.reset();
         },
         (error) => {
           console.log("FAILED...", error.text);
@@ -116,9 +121,13 @@ const Contact = () => {
                 {/* Submit Button */}
                 <button
                   type="submit"
-                  className="w-full rounded-md bg-[#ab499a] px-6 py-3 text-white font-medium hover:bg-[#d53bbc] transition cursor-pointer"
+                  className={`w-full rounded-md bg-[#ab499a] px-6 py-3 text-white font-medium hover:bg-[#d53bbc] transition ${
+                    loading
+                      ? "opacity-50 cursor-not-allowed "
+                      : "cursor-pointer"
+                  }`}
                 >
-                  Send Message
+                  {loading ? <Loader></Loader> : "Send Message"}
                 </button>
               </form>
             </div>

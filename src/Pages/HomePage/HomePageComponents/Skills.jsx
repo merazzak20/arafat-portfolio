@@ -33,7 +33,9 @@ const Skills = () => {
               >
                 <img src={skill.logo} alt={skill.name} className="w-10 h-10" />
                 <div>
-                  <p className="font-semibold text-lg">{skill?.name}</p>
+                  <p className="font-semibold text-lg text-gray-100">
+                    {skill?.name}
+                  </p>
                   <p className="text-[14px] text-gray-300">{skill?.reason}</p>
                 </div>
               </div>

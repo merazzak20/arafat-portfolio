@@ -54,7 +54,9 @@ const Contact = () => {
           {/* Contact Form Section */}
           <div className="relative flex items-center justify-center">
             <div className="max-md:py-20 px-6 md:px-10 w-full text-center">
-              <h1 className="text-3xl font-bold">Contact With Me!</h1>
+              <h1 className="text-3xl font-bold text-gray-100">
+                Contact With Me!
+              </h1>
               <p className="mt-4 text-gray-500">
                 Have any questions? Fill out the form below and we’ll get back
                 to you soon.
@@ -77,7 +79,7 @@ const Contact = () => {
                     id="name"
                     name="name"
                     placeholder="Your name"
-                    className="mt-1 w-full rounded-md border border-gray-300 p-3 outline-none focus:border-[#d53bbc] focus:ring-1 focus:ring-[#d53bbc]"
+                    className="mt-1 w-full text-gray-400 rounded-md border border-gray-300 p-3 outline-none focus:border-[#d53bbc] focus:ring-1 focus:ring-[#d53bbc]"
                     required
                   />
                 </div>
@@ -95,7 +97,7 @@ const Contact = () => {
                     id="email"
                     name="email"
                     placeholder="Your email"
-                    className="mt-1 w-full rounded-md border border-gray-300 p-3 outline-none focus:border-[#d53bbc] focus:ring-1 focus:ring-[#d53bbc]"
+                    className="mt-1 w-full text-gray-400 rounded-md border border-gray-300 p-3 outline-none focus:border-[#d53bbc] focus:ring-1 focus:ring-[#d53bbc]"
                     required
                   />
                 </div>
@@ -113,7 +115,7 @@ const Contact = () => {
                     name="message"
                     rows="4"
                     placeholder="Write your message..."
-                    className="mt-1 w-full rounded-md border border-gray-300 p-3 outline-none focus:border-[#d53bbc] focus:ring-1 focus:ring-[#d53bbc]"
+                    className="mt-1 w-full text-gray-400 rounded-md border border-gray-300 p-3 outline-none focus:border-[#d53bbc] focus:ring-1 focus:ring-[#d53bbc]"
                     required
                   ></textarea>
                 </div>

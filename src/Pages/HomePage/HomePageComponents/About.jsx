@@ -21,7 +21,7 @@ const About = () => {
                 subTitle={"A Glimpse Into My Journey."}
               ></SectionTitle>
             </div>
-            <div className="info bg-zinc-800 p-5 rounded-md border border-[#ab499b74]">
+            <div className="info bg-zinc-800/70 p-5 rounded-md border border-[#65275b74]">
               <p className="text-justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
                 aut expedita, deleniti voluptates hic facilis quam aperiam

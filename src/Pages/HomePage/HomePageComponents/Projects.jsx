@@ -27,7 +27,7 @@ const Projects = () => {
           {project.map((item, index) => (
             <div
               key={index}
-              className="card bg-base-200 shadow-md hover:shadow-xl transition-all duration-300 rounded-lg"
+              className="card bg-zinc-900/80 shadow-md hover:shadow-xl transition-all duration-300 rounded-lg"
             >
               {/* Image */}
               <figure className="overflow-hidden rounded-t-2xl">
@@ -40,7 +40,7 @@ const Projects = () => {
 
               {/* Card Body */}
               <div className="card-body">
-                <h2 className="card-title text-xl font-semibold">
+                <h2 className="card-title text-xl text-gray-100 font-semibold">
                   {item.title}
                 </h2>
 
@@ -59,7 +59,7 @@ const Projects = () => {
                     href={item.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-sm border border-[#d031b6]"
+                    className="btn btn-sm btn-outline text-[#d031b6] border border-[#d031b6] shadow-none hover:bg-[#d031b6] hover:text-white"
                   >
                     GitHub
                   </a>
@@ -67,7 +67,7 @@ const Projects = () => {
                     href={item.live}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-sm bg-[#d031b6]"
+                    className="btn btn-sm bg-[#d031b6] shadow-none border-none text-white"
                   >
                     Live Demo
                   </a>

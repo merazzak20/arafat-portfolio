@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "../../../Shared/Container";
 import me from "../../../assets/me.png";
+import { FaEnvelope, FaLocationArrow, FaWhatsapp } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -13,11 +14,36 @@ const Hero = () => {
             <h1 className="text-4xl md:text-6xl text-center font-semibold max-w-4xl mt-5 bg-gradient-to-r from-white to-[#748298] text-transparent bg-clip-text">
               This is Arafat Khan
             </h1>
-            <p className="text-slate-300 md:text-base max-md:px-2 text-center max-w-2xl mt-3">
-              Unlock potential with tailored strategies designed for success.
-              Simplify challenges, maximize results, and stay ahead in the
-              competitive market.
+            <p className="text-slate-300 text-center md:text-base max-md:px-2 max-w-2xl mt-3">
+              Computer Science Student & Frontend Developer Intern
             </p>
+
+            <div className="flex flex-col md:flex-row items-center justify-center gap-0 md:gap-4">
+              <p className="flex items-center gap-3 text-slate-300 md:text-base max-md:px-2 max-w-2xl mt-3">
+                <FaLocationArrow></FaLocationArrow> Dallas, Texas, USA
+              </p>
+              <p className="flex items-center gap-3 text-slate-300 md:text-base max-md:px-2 max-w-2xl mt-3">
+                <FaWhatsapp></FaWhatsapp>{" "}
+                <a
+                  href="https://wa.me/17472709082"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#d031b6]"
+                >
+                  +1 7472709082
+                </a>
+              </p>
+              <p className="flex items-center gap-3 text-slate-300 md:text-base max-md:px-2 max-w-2xl mt-3">
+                <FaEnvelope></FaEnvelope>{" "}
+                <a
+                  href="mailto:arafatk538@gmail.com"
+                  target="_blank"
+                  className="hover:text-[#d031b6]"
+                >
+                  arafatk538@gmail.com
+                </a>
+              </p>
+            </div>
 
             {/* CTA Buttons */}
             <div className="flex items-center justify-center gap-2 mt-8 text-sm">

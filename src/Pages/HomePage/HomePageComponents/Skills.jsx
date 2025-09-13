@@ -16,10 +16,7 @@ const Skills = () => {
       <Container>
         {/* Section Title */}
         <div className="mb-10">
-          <SectionTitle
-            text={"Skills"}
-            subTitle={"Projects That Define My Skills"}
-          />
+          <SectionTitle text={"Skills"} subTitle={"Technologies I Work With"} />
         </div>
 
         {/* Infinite Slider */}

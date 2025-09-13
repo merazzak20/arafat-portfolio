@@ -23,11 +23,15 @@ const About = () => {
             </div>
             <div className="info bg-zinc-800/70 p-5 rounded-md border border-[#65275b74]">
               <p className="text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-                aut expedita, deleniti voluptates hic facilis quam aperiam
-                dicta. Assumenda quidem adipisci sit. Porro eos aperiam itaque,
-                dicta, fuga, error velit corporis quod totam doloremque ipsa
-                aspernatur quibusdam recusandae laudantium asperiores.
+                Final-year Computer Science student at UT Dallas (graduating Dec
+                2025). Internship experience at BlueCiate (SMSNXT) as a Frontend
+                Developer Intern.{" "}
+                <span className="bg-[#AB499A]">
+                  Skilled in MERN stack, Java, Python, SQL, and C++
+                </span>
+                . Built multiple full-stack applications including reservation,
+                rental management, and DBMS projects. Looking for entry-level
+                Software Engineering roles.
               </p>
               <br />
               <p className="text-justify">

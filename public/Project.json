@@ -1,44 +1,30 @@
 [
   {
     "image": "https://bestier.net/cdn/shop/files/computer-desk-with-drawers-k.png?v=1724315665&width=718",
-    "title": "Peddy - Pet Adoption Platform",
-    "tags": ["React", "Tailwind", "API"],
-    "github": "https://github.com/username/peddy",
-    "live": "https://peddy.vercel.app/"
+    "title": "Taste-Crafter – Restaurant Reservation System",
+    "tags": ["MERN", "Firebase Auth", "Realtime DB"],
+    "github": "https://github.com/Khan232001/Taste-Crafter",
+    "live": "https://keen-cuchufli-3b28d6.netlify.app/"
   },
   {
     "image": "https://bestier.net/cdn/shop/files/computer-desk-with-drawers-k.png?v=1724315665&width=718",
-    "title": "Gadget Heaven - E-commerce",
-    "tags": ["React", "Routing", "Tailwind"],
-    "github": "https://github.com/username/gadget-heaven",
-    "live": "https://gadget-heaven.vercel.app/"
+    "title": "DBMS Recruitment & Sales System",
+    "tags": ["Python", "MySQL"],
+    "github": "https://github.com/Khan232001/DBMS_Project",
+    "live": ""
   },
   {
     "image": "https://bestier.net/cdn/shop/files/computer-desk-with-drawers-k.png?v=1724315665&width=718",
-    "title": "MindSprint - Quiz App",
-    "tags": ["React", "Tailwind", "Hooks"],
-    "github": "https://github.com/username/mindsprint",
-    "live": "https://mind-sprint.vercel.app/"
+    "title": "Airbnb-Style Rental Management",
+    "tags": ["MERN", "Mapbox"],
+    "github": "https://github.com/Khan232001/airbnb",
+    "live": "https://airbnb-bmo0.onrender.com/listings"
   },
   {
     "image": "https://bestier.net/cdn/shop/files/computer-desk-with-drawers-k.png?v=1724315665&width=718",
-    "title": "Result Card Generator",
-    "tags": ["React", "Tailwind", "PDF"],
-    "github": "https://github.com/username/result-card-generator",
-    "live": "https://result-card.vercel.app/"
-  },
-  {
-    "image": "https://bestier.net/cdn/shop/files/computer-desk-with-drawers-k.png?v=1724315665&width=718",
-    "title": "Tutioni - Tutor Platform",
-    "tags": ["React", "Tailwind", "Firebase"],
-    "github": "https://github.com/username/tutioni",
-    "live": "https://tutioni.vercel.app/"
-  },
-  {
-    "image": "https://bestier.net/cdn/shop/files/computer-desk-with-drawers-k.png?v=1724315665&width=718",
-    "title": "ArtifactArc - Artifact Tracker",
-    "tags": ["React", "MongoDB", "Express"],
-    "github": "https://github.com/username/artifact-arc",
-    "live": "https://artifactarc.vercel.app/"
+    "title": "ATM Simulator",
+    "tags": ["Java", "OOP"],
+    "github": "https://github.com/Khan232001/ATM-Machine",
+    "live": ""
   }
 ]

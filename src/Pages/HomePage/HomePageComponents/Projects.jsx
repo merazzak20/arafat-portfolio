@@ -23,7 +23,7 @@ const Projects = () => {
         </div>
 
         {/* Project Grid */}
-        <div className="grid gap-2 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-4">
           {project.map((item, index) => (
             <div
               key={index}
@@ -39,7 +39,7 @@ const Projects = () => {
               </figure>
 
               {/* Card Body */}
-              <div className="card-body">
+              <div className="card-body flex flex-col justify-between">
                 <h2 className="card-title text-xl text-gray-100 font-semibold">
                   {item.title}
                 </h2>
@@ -56,7 +56,7 @@ const Projects = () => {
                 {/* Actions */}
                 <div className="card-actions justify-between mt-4">
                   <a
-                    href={item.github}
+                    href={item.github ? item.github : ""}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-sm btn-outline text-[#d031b6] border border-[#d031b6] shadow-none hover:bg-[#d031b6] hover:text-white"
@@ -64,7 +64,7 @@ const Projects = () => {
                     GitHub
                   </a>
                   <a
-                    href={item.live}
+                    href={item.live ? item.live : ""}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-sm bg-[#d031b6] shadow-none border-none text-white"

@@ -1,5 +1,30 @@
 [
   {
+    "name": "Java",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+    "reason": "OOP language"
+  },
+  {
+    "name": "C/C++",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+    "reason": "System programming"
+  },
+  {
+    "name": "Python",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+    "reason": "Scripting & ML"
+  },
+  {
+    "name": "JavaScript",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    "reason": "Dynamic logic"
+  },
+  {
+    "name": "MySQL",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+    "reason": "Relational DB"
+  },
+  {
     "name": "HTML5",
     "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
     "reason": "Web structure"
@@ -10,19 +35,14 @@
     "reason": "Styling design"
   },
   {
-    "name": "JavaScript",
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-    "reason": "Dynamic logic"
+    "name": "Bootstrap",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+    "reason": "UI framework"
   },
   {
     "name": "React",
     "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
     "reason": "UI library"
-  },
-  {
-    "name": "Tailwind CSS",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/768px-Tailwind_CSS_Logo.svg.png?20230715030042",
-    "reason": "Utility-first"
   },
   {
     "name": "Node.js",
@@ -40,13 +60,33 @@
     "reason": "NoSQL database"
   },
   {
+    "name": "DSA",
+    "logo": "https://cdn-icons-png.flaticon.com/512/1387/1387537.png",
+    "reason": "Problem solving"
+  },
+  {
+    "name": "OOP",
+    "logo": "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
+    "reason": "Object-oriented"
+  },
+  {
     "name": "Git & GitHub",
     "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
     "reason": "Version control"
   },
   {
-    "name": "Firebase",
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-    "reason": "Hosting auth"
+    "name": "REST APIs",
+    "logo": "https://cdn-icons-png.flaticon.com/512/1006/1006363.png",
+    "reason": "Data exchange"
+  },
+  {
+    "name": "Microsoft Office",
+    "logo": "https://images.seeklogo.com/logo-png/40/1/microsoft-office-logo-png_seeklogo-406239.png",
+    "reason": "Docs & tools"
+  },
+  {
+    "name": "Linux/Unix",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
+    "reason": "OS basics"
   }
 ]

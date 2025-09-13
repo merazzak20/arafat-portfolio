@@ -10,7 +10,7 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center">
           {/* left */}
           <div className="left">
-            <img className="w-11/12 mx-auto" src={me} alt="" />
+            <img className="w-8/12 mx-auto" src={me} alt="" />
           </div>
 
           {/* right */}
@@ -26,7 +26,7 @@ const About = () => {
                 Final-year Computer Science student at UT Dallas (graduating Dec
                 2025). Internship experience at BlueCiate (SMSNXT) as a Frontend
                 Developer Intern.{" "}
-                <span className="bg-[#AB499A]">
+                <span className="text-[#d846c0] font-semibold">
                   Skilled in MERN stack, Java, Python, SQL, and C++
                 </span>
                 . Built multiple full-stack applications including reservation,

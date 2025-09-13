@@ -26,22 +26,36 @@ const Header = () => {
               isOpen ? "flex" : "hidden"
             }`}
           >
-            <a className="hover:text-[#d53bbc] font-semibold" href="#about">
+            <a
+              onClick={() => setIsOpen(false)}
+              className="hover:text-[#d53bbc] font-semibold"
+              href="#about"
+            >
               About
             </a>
-            <a className="hover:text-[#d53bbc] font-semibold" href="#skills">
+            <a
+              onClick={() => setIsOpen(false)}
+              className="hover:text-[#d53bbc] font-semibold"
+              href="#skills"
+            >
               Skills
             </a>
-            <a className="hover:text-[#d53bbc] font-semibold" href="#projects">
+            <a
+              onClick={() => setIsOpen(false)}
+              className="hover:text-[#d53bbc] font-semibold"
+              href="#projects"
+            >
               Projects
             </a>
             <a
+              onClick={() => setIsOpen(false)}
               className="hover:text-[#d53bbc] font-semibold"
               href="#experience"
             >
               Experience
             </a>
             <a
+              onClick={() => setIsOpen(false)}
               className="hover:text-[#d53bbc] font-semibold"
               href="#certificates"
             >
@@ -51,7 +65,7 @@ const Header = () => {
             {/* Close Button (mobile) */}
             <button
               onClick={() => setIsOpen(false)}
-              className="md:hidden text-gray-600"
+              className="md:hidden text-[#d53bbc] cursor-pointer "
             >
               <svg
                 className="w-6 h-6"
@@ -71,15 +85,16 @@ const Header = () => {
           <div className="flex items-center space-x-4">
             <a
               className="hidden md:flex md:items-center gap-2 border-2 border-[#AB499A] text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-[#d031b6] transition "
-              href="#"
+              href="https://docs.google.com/document/d/1phrC3HeiIOp24r3IV26Vx6GCnhUTlU4I/edit"
+              target="_blank"
             >
-              Download CV <FaDownload />
+              Download Resume <FaDownload />
             </a>
 
             {/* Open Button (mobile) */}
             <button
               onClick={() => setIsOpen(true)}
-              className="md:hidden text-gray-600"
+              className="md:hidden text-[#d53bbc] cursor-pointer"
             >
               <svg
                 className="w-6 h-6"
